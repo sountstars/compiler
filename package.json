@@ -1,0 +1,14 @@
+{
+  "name": "wwwtest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "t": "node ./lib/bundler.js --config webpack.config.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.2",
+    "@babel/parser": "^7.17.0",
+    "@babel/traverse": "^7.17.0"
+  }
+}
